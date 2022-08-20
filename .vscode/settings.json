@@ -11,6 +11,5 @@
     "source.organizeImports": true
   },
   "eslint.alwaysShowStatus": true,
-  "cSpell.words": ["antd", "Ashab", "Hussan", "Parens", "roadmap"],
-  "json.schemaDownload.enable": false
+  "cSpell.words": ["antd", "Ashab", "Hussan", "Parens", "roadmap"]
 }
