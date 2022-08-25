@@ -5,6 +5,7 @@ import logo from "../assets/logo.png";
 import ToolsDropdown from "../data/ToolDropdown";
 import "../styles/Navbar.css";
 
+const GH_ISSUE = "//github.com/Shadow-Chaser/student-toolkit/issues/";
 const Navbar = () => {
   return (
     <div>
@@ -22,6 +23,9 @@ const Navbar = () => {
           </Dropdown>
           <Link className="nav-item" to="/about">
             <InfoCircleFilled /> About
+          </Link>
+          <Link className=" btn__cta" target="_blank" to={GH_ISSUE}>
+            Request a Tool
           </Link>
         </ul>
       </header>

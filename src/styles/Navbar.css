@@ -41,6 +41,29 @@ hr {
     margin: 0;
 }
 
+.btn__cta {
+    position: relative;
+    color: #27187E;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 1px;
+    border-radius: 1000px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    box-shadow: 0 2px 5px 0 rgba(3, 6, 26, 0.15);
+    transition: .5s all ease-in-out;
+    font-weight: bold;
+    background: #F1F2F6;
+
+}
+
+.btn__cta:hover {
+    cursor: pointer;
+    background: #AEB8FE;
+    color: #1F4141;
+    animation: none;
+}
+
 /* ================================= 
   Media Queries
 ==================================== */
