@@ -22,7 +22,6 @@ const CoverForm = () => {
     section: "D",
     submissionDate: new Date().toLocaleDateString("en-GB"),
   });
-  console.log(coverData);
   const componentRef = useRef();
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
