@@ -1,0 +1,77 @@
+#cover-result {
+    /* height: 100vh; */
+    margin: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    outline: 2px solid black;
+
+}
+
+#luLogo {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#university {
+    text-transform: uppercase;
+    color: green;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+#title {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#courseTitle,
+#courseCode {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#to,
+#by {
+    text-decoration: underline;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.name {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.small-text {
+    font-size: 18px;
+    text-align: center;
+    line-height: 13px;
+}
+
+#submissionDate {
+    padding-top: 15px;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+@media print {
+
+    html,
+    body {
+        height: 100vh;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: hidden;
+    }
+}

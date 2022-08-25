@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Tools from "./pages/Tools";
-import CoverBuilder from "./services/CoverBuilder";
+import CoverForm from "./services/CoverBuilder/CoverForm";
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/tools" element={<Tools />} />
         <Route path="/about" element={<About />} />
-        <Route path="/cover-builder" element={<CoverBuilder />} />
+        <Route path="/cover-builder" element={<CoverForm />} />
       </Routes>
     </BrowserRouter>
   );
