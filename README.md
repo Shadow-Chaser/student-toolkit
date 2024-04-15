@@ -217,11 +217,6 @@ Project Link: [https://github.com/Shadow-Chaser/student-toolkit](https://github.
 
 <a name="acknowledgments"></a>
 
-## 💎 Acknowledgments
-
-- []()
-- []()
-- []()
 
 <p align="right">( <a href="#readme-top">⬆️ back to top</a> )</p>
 
